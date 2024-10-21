@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Sitting Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Your Business Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services & Pricing</a></li>
+                <li><a href="#booking">Schedule Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Your Pet's Best Friend</h2>
+        <p>We offer the best care for your pets while you’re away.</p>
+        <a href="#booking" class="cta-button">Book Now</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services & Pricing</h2>
+        <ul>
+            <li>Dog Walking - $20/hour</li>
+            <li>Overnight Stay - $50/night</li>
+            <li>Pet Feeding - $15/visit</li>
+        </ul>
+    </section>
+
+    <section id="booking">
+        <h2>Schedule an Appointment</h2>
+        <p>Use the calendar below to book an appointment.</p>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/yinjason13/overnight-stay?text_color=0c7526&primary_color=b5e6ff" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/YOUR_EMAIL" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Pet Sitting Business. All rights reserved.</p>
+    </footer>
+</body>
+</html>
